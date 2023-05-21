@@ -10,6 +10,6 @@ public class Ejercicio5 {
         while (num !=0){
             factorial=factorial*num; num--;
         }
-        System.out.println(factorial);
+        System.out.println("El resultado de la factorial es: " + factorial);
     }
 }
