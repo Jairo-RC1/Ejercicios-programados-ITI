@@ -1,7 +1,6 @@
 import java.util.Scanner;
-public class Ejercicio7 {
+public class Ejercicio8 {
     public static void main(String[] args){
-
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese un numero");
         int num = input.nextInt();
@@ -11,10 +10,10 @@ public class Ejercicio7 {
             num = input.nextInt();
         }
 
-        if (num <0 ){
-            System.out.println("El numero es negativo");
-        } else {
-            System.out.println("El numero es positivo");
-        }
+        System.out.println("Ingrese un numero");
+        int num2 = input.nextInt();
+
+
     }
+
 }
