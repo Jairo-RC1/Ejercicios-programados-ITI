@@ -1,9 +1,8 @@
 import java.util.Scanner;
-public class Ejercicio5 {
+public class Ejercicio6 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Ingrese un numero entero");
+        System.out.println("Ingrese un numero entero para multiplicar");
         int num = input.nextInt();
 
         while (num<=0){
@@ -11,11 +10,9 @@ public class Ejercicio5 {
             num = input.nextInt();
         }
 
-        int factorial = 1;
-
-        while (num !=0) {
-            factorial=factorial*num; num--;
+        for (int i=1; i<=10; i++){
+            int mult = num * i;
+            System.out.println("El resultado de la multiplicacion es: " + mult);
         }
-        System.out.println("El resultado de la factorial es: " + factorial);
     }
 }
