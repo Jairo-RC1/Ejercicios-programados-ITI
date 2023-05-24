@@ -21,6 +21,5 @@ public class Ejercicio11 {
         } else if (num < 9999) {
             System.out.println("El numero tiene 4 cifras");
         }
-
     }
 }

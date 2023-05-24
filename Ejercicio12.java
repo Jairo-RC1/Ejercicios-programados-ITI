@@ -24,6 +24,6 @@ public class Ejercicio12 {
             System.out.println("Ingrese el numero de año de nacimiento correcto");
             n3 = input.nextInt();
         }
-        System.out.println("La fecha de nacimiento  es " + n1 + " " + n2 + " " + n3);
+        System.out.println("La fecha de nacimiento es el dia " + n1 + " del mes " + n2 + " y del año " + n3);
     }
 }
