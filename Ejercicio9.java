@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class Ejercicio8 {
+public class Ejercicio9 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+
         System.out.println("Ingrese un primer numero");
         int num = input.nextInt();
 
@@ -18,12 +19,10 @@ public class Ejercicio8 {
             num2 = input.nextInt();
         }
 
-        if (num / num2 == 0){
-            System.out.println(num + " es múltiplo de " + num2);
-        } else if (num2 / num == 0){
-            System.out.println(num2 + " es múltiplo de " + num);
+        if (num > num2){
+            System.out.println(num + " es mayor a "+ num2);
         } else {
-             System.out.println("Los números no son múltiplos entre sí.");
+            System.out.println(num2 + " es mayor a "+ num);
         }
     }
 }
