@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Ejerciciotres {
+public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese el valor del radio 'r' ");

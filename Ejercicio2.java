@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejerciciodos {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese el valor de celsius: ");
