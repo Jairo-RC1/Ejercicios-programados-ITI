@@ -16,5 +16,6 @@ public class Ejercicio23 {
             System.out.println("Las " + mill + " millas serian " + kilo + " kilometros ");
 
         } while (mill != 0);
+        System.out.println("Saliendo del programa...");
     }
 }

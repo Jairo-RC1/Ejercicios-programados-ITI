@@ -29,6 +29,6 @@ public class Ejercicio24 {
         }
 
         System.out.println(
-                "La hora digitada es la siguiente: " + hora + " horas con " + min + " minutos y " + seg + " segundos ");
+                "La hora digitada es la siguiente: " + hora + " horas con " + min + " minutos y " + seg + " segundos es valida");
     }
 }

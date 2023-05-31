@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Ejercicio17 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int sueldo;
 
         System.out.println("Ingrese una n cantidad de sueldos");
-        sueldo = input.nextInt();
+        int sueldo = input.nextInt();
 
         while (sueldo <= 0) {
             System.out.println("La cantidad de sueldos debe ser mayor a 0");

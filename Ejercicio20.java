@@ -12,8 +12,9 @@ public class Ejercicio20 {
             num = input.nextInt();
         }
 
-        Double pot2 = Math.pow(num, 2);
-        Double pot3 = Math.pow(num, 3);
+        int pot2 = num * 2;
+
+        int pot3 = num * 3;
 
         System.out.println("El doble del numero " + num + " es " + pot2 + " y el triple es " + pot3);
 

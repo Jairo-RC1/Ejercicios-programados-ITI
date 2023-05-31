@@ -13,7 +13,7 @@ public class Ejercicio19 {
         if (num == num2) {
             System.out.println("Los numeros son iguales");
         } else {
-            System.out.println("Los numero son diferentes");
+            System.out.println("Los numeros son diferentes");
         }
     }
 }
